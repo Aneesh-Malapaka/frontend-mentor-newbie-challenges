@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/Aneesh-Malapaka/frontend-mentor-newbie-challenges/tree/main/social-links-profile-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Social Links Live Site](https://social-links-fm-challenge.netlify.app/)
 
 ## My process
 
