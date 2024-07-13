@@ -2,7 +2,7 @@
 :root {
   --green: hsl(75, 94%, 57%);
   --white: hsl(0, 0%, 100%);
-  --grey: hsl(0, 0%, 20%);
+  --grey: hsl(0, 1%, 35%);
   --dark-grey: hsl(0, 0%, 12%);
   --off-black: hsl(0, 0%, 8%);
 }
@@ -26,19 +26,97 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  padding: 70px 0;
+  overflow-y: hidden;
 }
 
 main {
   text-align: center;
   background-color: var(--dark-grey);
   padding: 25px;
-  height: 70vh;
+  height: 100%;
   border-radius: 10px;
+  width: 85vw;
 }
 
 figure img {
   border-radius: 50%;
-  width: 25%;
-  margin-bottom: 20px;
+  width: 32%;
+}
+figure figcaption {
+  padding: 20px 0;
+}
+
+figure figcaption p.name {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 9px;
+}
+
+figure figcaption p.location {
+  color: var(--green);
+  font-weight: 600;
+}
+
+div.intro > p {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--white);
+  opacity: 0.6;
+  margin-bottom: 25px;
+}
+
+div.social-links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+ul li {
+  background-color: var(--grey);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+}
+
+li a {
+  text-decoration: none;
+  width: 100%;
+  padding: 12px;
+  display: block;
+}
+
+li a:hover {
+  background-color: var(--green);
+  color: var(--off-black);
+  border-radius: 5px;
+}
+
+/* media queries for large devices */
+@media only screen and (min-width: 768px) {
+  main {
+    width: 50vw;
+  }
+
+  figure img {
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  main {
+    width: 35vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  figure img {
+    width: 30%;
+  }
+  main {
+    width: 25vw;
+  }
 }
