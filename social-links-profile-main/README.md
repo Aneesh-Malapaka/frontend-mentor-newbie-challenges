@@ -47,4 +47,4 @@ Users should be able to:
 ## Author
 
 - Website - [Aneesh Malapaka](https://aneesh-malapaka-portfolio.netlify.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Aneesh-Malapaka](https://www.frontendmentor.io/profile/Aneesh-Malapaka)
